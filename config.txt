@@ -1,0 +1,6 @@
+git config --global user.name laislobato
+git config --global user.email 
+
+npx create-expo-app@latest Calc_app --template blank
+
+npx expo start --android --localhost
