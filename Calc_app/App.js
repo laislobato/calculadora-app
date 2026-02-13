@@ -7,12 +7,11 @@ export default function App() {
   return (
     <View style={styles.container}>
       <LinearGradient
-        colors={['#4c669f', '#3b5998', '#192f6a']}
+        colors={['#4c669f', '#3b5998', '#192f6a', '#192f6a']}
         style={styles.button}>
         <Text style={styles.text}>Sign in with Facebook</Text>
       </LinearGradient>
         <StatusBar style="auto" />
-      </LinearGradient>
     </View>
   );
 }
